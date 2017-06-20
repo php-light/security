@@ -1,0 +1,19 @@
+{
+    "name": "php-light/security",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Khalid Sookia",
+            "email": "khalidsookia@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": { "PhpLight\\Security\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "minimum-stability": "dev"
+}
